@@ -1,0 +1,42 @@
+---
+title: "Mini-Project 05_02_simple-qmd"
+shorttitle: "MP05_02"
+author: "Huidi Yuan"
+date: today
+format: 
+  html: 
+    toc: true
+  pdf: 
+    toc: false
+execute:
+  echo: false # set global chunk options
+  warning: false # override these in individual chunks
+---
+
+# Setup
+
+## Load packages
+
+### Source the call_library.R script
+
+```{r load packages, include=TRUE}
+# Load readr, tidyverse, and ggplot2
+source("call_library.R")
+```
+
+## Read in data
+```{r read data}
+# Read in mtcars data
+data("mtcars")
+head(mtcars)
+```
+## Set a random seed
+```{r set seed}
+set.seed(123)
+```
+
+# Analysis
+1. Use R operators to assign values to objects
+2. Construct a data frame
+3. Define a function
+

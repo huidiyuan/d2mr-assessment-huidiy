@@ -1,0 +1,4 @@
+"0","random_greeting <- function(){"
+"0","  greetings <- c(""Hello"", ""Hi"", ""Hey"", ""Greetings"", ""Salutations"")"
+"0","  return(sample(greetings, 1))"
+"0","}"

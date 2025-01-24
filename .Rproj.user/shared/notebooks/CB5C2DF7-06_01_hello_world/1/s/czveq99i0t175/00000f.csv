@@ -1,0 +1,7 @@
+"0","# Set your class day"
+"0","class_day <- c(""Monday"", ""Tuseday"", ""Thursday"")"
+"0","hello_world(""hUiDi"", class_day)"
+"1","[1]"
+"1"," ""Greetings Huidi, good evening! It is 2025-01-22 19:40. You have class tomorrow!"""
+"1","
+"
