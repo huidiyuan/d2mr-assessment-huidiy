@@ -98,11 +98,18 @@ QUESTIONS:
 1. What are the differences between the messy dataset and the original mtcars dataset?
 
 <!-- answer below -->
+- Different column names. 
+- Some extra white spaces in the car model column in messy dataset.
+- Data types are different for many columns. 
+- Some missing values in the cyl and hp columns.
+- messy dataset has an extra column that is not in the original mtcars dataset.
 
 2. What are the main issues you need to address in cleaning?
 
 <!-- answer below -->
-
+- Rename columns to match the original mtcars dataset.
+- Change data types properly to match the original mtcars dataset. 
+- Remove unwanted spaces in the car model column.
 
 
 # Clean the Dataset
@@ -114,7 +121,7 @@ QUESTIONS:
 #| label: make-cleaning-dataset
 
 # Create a dataset to work with during the cleaning process called "clean.mtcars"
-
+clean.mtcars <- messy.mtcars
 
 ```
 
@@ -127,7 +134,17 @@ QUESTIONS:
 #| label: rename-columns
 
 # Rename columns to match the original mtcars dataset
-
+clean.mtcars <- clean.mtcars %>%
+  rename(
+    model = `Car Model`,
+    mpg = `mpg (Miles/Gallon)`,
+    cyl = `cylinders`,
+    disp = `dsip`,
+    hp = `horsepower`,
+    am = `am (transmission)`,
+    gear = `gear box`,
+    carb = `carburetors`
+  )
 
 ```
 
