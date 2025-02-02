@@ -16,9 +16,9 @@ This document tracks your progress meeting 20 unique objectives across all mini-
 ## R programming
 
 5.  [ ] Find, install, require, and load R packages
-6.  [ ] Use arithmetic, comparison, and logical operators
+6.  [x] Use arithmetic, comparison, and logical operators
 7.  [ ] Parse and define functions and arguments
-8.  [ ] Parse and write conditional statements and/or loops
+8.  [x] Parse and write conditional statements and/or loops
 
 ## Tidyverse
 
@@ -47,14 +47,14 @@ This document tracks your progress meeting 20 unique objectives across all mini-
 
 ## Notebooks and code chunks
 
-22. [ ] Create and effectively use code chunks following best practices
+22. [x] Create and effectively use code chunks following best practices
 23. [ ] Use code chunks to set up a quarto document
 24. [ ] Render publication-quality tables, figures, and images from code chunks
 25. [ ] Execute descriptive analyses and/or hypothesis testing in code chunks
 
 ## R Markdown and Quarto
 
-26. [ ] Create and maintain a quarto document YAML header
+26. [x] Create and maintain a quarto document YAML header
 27. [ ] Use quarto R Markdown to compose an academic manuscript
 28. [ ] Use inline R variables to replace static text
 29. [ ] Run inline R functions to render dynamic data-dependent text
